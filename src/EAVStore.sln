@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAVStore.Api", "EAVStore.Api\EAVStore.Api.csproj", "{CF1C91CB-9853-4CC5-9D38-206BB660E17F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAVStore.DataAccess", "EAVStore.DataAccess\EAVStore.DataAccess.csproj", "{6C9B507B-B3FC-40F0-90A1-BAEC80B5B0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAVStore.Api.Tests", "EAVStore.Api.Tests\EAVStore.Api.Tests.csproj", "{5F73B64C-2DB1-429E-A7BB-9FC7D2A7C7CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D7AFA1E5-CA24-4C08-BBF5-8EF18BBC76C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1C91CB-9853-4CC5-9D38-206BB660E17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1C91CB-9853-4CC5-9D38-206BB660E17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1C91CB-9853-4CC5-9D38-206BB660E17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1C91CB-9853-4CC5-9D38-206BB660E17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9B507B-B3FC-40F0-90A1-BAEC80B5B0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9B507B-B3FC-40F0-90A1-BAEC80B5B0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9B507B-B3FC-40F0-90A1-BAEC80B5B0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9B507B-B3FC-40F0-90A1-BAEC80B5B0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F73B64C-2DB1-429E-A7BB-9FC7D2A7C7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F73B64C-2DB1-429E-A7BB-9FC7D2A7C7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F73B64C-2DB1-429E-A7BB-9FC7D2A7C7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F73B64C-2DB1-429E-A7BB-9FC7D2A7C7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F73B64C-2DB1-429E-A7BB-9FC7D2A7C7CE} = {D7AFA1E5-CA24-4C08-BBF5-8EF18BBC76C9}
+	EndGlobalSection
+EndGlobal

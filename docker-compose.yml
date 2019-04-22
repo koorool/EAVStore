@@ -1,0 +1,21 @@
+version: "3"
+services:
+  web:
+    build: .
+    environment:
+     - PostgreSqlConfig__HostAddress=postgres
+     - PostgreSqlConfig__HostPort=5432
+     - PostgreSqlConfig__Database=eav_store_db
+     - PostgreSqlConfig__UserName=postgres
+     - PostgreSqlConfig__Password=postgres
+    ports:
+     - "8080:80"
+  postgres:
+    image: "postgres"
+    container_name: "postgres"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
